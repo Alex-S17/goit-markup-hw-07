@@ -70,238 +70,240 @@
           <!-- Условный заголовок секции -->
           <h1 hidden>Наше портфолио</h1>
           <!-- Список кнопок -->
-          <ul class="filter-flex list">
-            <li class="portfolio-menu">
-              <button type="button" class="filter-buttons current-button">Все</button>
+          <ul class="portfolio-menu">
+            <li class="portfolio-menu__item">
+              <button type="button" class="portfolio-menu__button portfolio-menu__button--current">
+                Все
+              </button>
             </li>
-            <li class="portfolio-menu">
-              <button type="button" class="filter-buttons">Веб-сайты</button>
+            <li class="portfolio-menu__item">
+              <button type="button" class="portfolio-menu__button">Веб-сайты</button>
             </li>
-            <li class="portfolio-menu">
-              <button type="button" class="filter-buttons">Приложения</button>
+            <li class="portfolio-menu__item">
+              <button type="button" class="portfolio-menu__button">Приложения</button>
             </li>
-            <li class="portfolio-menu">
-              <button type="button" class="filter-buttons">Дизайн</button>
+            <li class="portfolio-menu__item">
+              <button type="button" class="portfolio-menu__button">Дизайн</button>
             </li>
-            <li class="portfolio-menu">
-              <button type="button" class="filter-buttons">Маркетинг</button>
+            <li class="portfolio-menu__item">
+              <button type="button" class="portfolio-menu__button">Маркетинг</button>
             </li>
           </ul>
           <!-- Список работ в портфолио-->
-          <ul class="portfolio list">
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+          <ul class="portfolio-cards-set">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-technokrjack.jpg"
                     alt="Технокряк"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Технокряк</h2>
-                  <p class="portfolio-paragraph">Веб-сайт</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Технокряк</h2>
+                  <p class="portfolio-card__paragraph">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-new-orlean.jpg"
                     alt="Постер New Orlean vs Golden Star"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="portfolio-paragraph">Дизайн</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Постер New Orlean vs Golden Star</h2>
+                  <p class="portfolio-card__paragraph">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-seafood.jpg"
                     alt="Ресторан Seafood"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Ресторан Seafood</h2>
-                  <p class="portfolio-paragraph">Приложение</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Ресторан Seafood</h2>
+                  <p class="portfolio-card__paragraph">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-prime.jpg"
                     alt="Проект Prime"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Проект Prime</h2>
-                  <p class="portfolio-paragraph">Маркетинг</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Проект Prime</h2>
+                  <p class="portfolio-card__paragraph">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-boxes.jpg"
                     alt="Проект Boxes"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Проект Boxes</h2>
-                  <p class="portfolio-paragraph">Приложение</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Проект Boxes</h2>
+                  <p class="portfolio-card__paragraph">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-inspiration.jpg"
                     alt="Inspiration has no Borders"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                  <p class="portfolio-paragraph">Веб-сайт</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Inspiration has no Borders</h2>
+                  <p class="portfolio-card__paragraph">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-limited-edition.jpg"
                     alt="Издание Limited Edition"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Издание Limited Edition</h2>
-                  <p class="portfolio-paragraph">Дизайн</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Издание Limited Edition</h2>
+                  <p class="portfolio-card__paragraph">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-lab.jpg"
                     alt="Проект LAB"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Проект LAB</h2>
-                  <p class="portfolio-paragraph">Маркетинг</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Проект LAB</h2>
+                  <p class="portfolio-card__paragraph">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="">
-                <div class="portf-image-box">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="">
+                <div class="portfolio-card__image-box">
                   <img
-                    class="no-bottom-space"
+                    class="portfolio-card__image"
                     src="./images/img-portfolio-growing-bis.jpg"
                     alt="Growing Business"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portf-overlay-text">
+                  <div class="portfolio-card__overlay">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-name">
-                  <h2 class="portfolio-title">Growing Business</h2>
-                  <p class="portfolio-paragraph">Приложение</p>
+                <div class="portfolio-card__title">
+                  <h2 class="portfolio-card__name">Growing Business</h2>
+                  <p class="portfolio-card__paragraph">Приложение</p>
                 </div>
               </a>
             </li>
